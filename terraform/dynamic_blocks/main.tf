@@ -13,4 +13,7 @@ resource "aws_s3_bucket" "this" {
       }
     }
   }
+  tags = {
+    yor_trace = "5e4f0db9-0cd3-430e-b54e-369b4463ded0"
+  }
 }
